@@ -1,0 +1,56 @@
+.basket {
+  padding-top: 30px;
+  &__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &__input {
+    padding: 15px;
+    outline: none;
+    border-radius: 10px;
+    border: 1px solid #746d6d;
+  }
+  &__row {
+    display: flex;
+    align-items: center;
+    column-gap: 15px;
+  }
+  &__icons {
+    cursor: pointer;
+  }
+  &__subs {
+    display: flex;
+    align-items: center;
+    column-gap: 7px;
+    line-height: 15px;
+  }
+  &__sub {
+   font-size: 18px;
+   color: var(--color-desc);
+  }
+  &__price {
+    display: flex;
+    align-items: center;
+    column-gap: 7px;
+  }
+  &__prices {
+    font-size: 18px;
+    color: var(--color-desc);
+  }
+}
+@media(max-width: 420px) {
+  .basket {
+    &__wrapper {
+      display: grid;
+      grid-template-columns: 1fr;
+    }
+    &__input {
+      width: 100%;
+      padding: 13px;
+    }
+    &__row {
+      margin-top: 15px;
+    }
+  }
+}

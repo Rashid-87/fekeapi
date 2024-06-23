@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./src/css/style.min.css">
+    <title>fekeapi</title>
+  </head>
+  <body>
+
+    <header class="header">
+      <div class="container">
+        <ul class="header__menu">
+          <li class="header__link" style="color: #eb5a1e">nome</li>
+          <li class="header__link">men's clothing</li>
+          <li class="header__link">jewelery</li>
+          <li class="header__link">electronics</li>
+          <li class="header__link">women's clothing</li>
+        </ul>
+      </div>
+    </header>
+
+    <main class="main">
+      <section class="basket">
+        <div class="container">
+          <div class="basket__wrapper">
+            <label> <input class="basket__input" placeholder="Поиск..." type="text"></label>
+            <div class="basket__row">
+              <span class="basket__icons"><svg xmlns="http://www.w3.org/2000/svg" height="50px" viewBox="0 -960 960 960" width="50px" fill="#746d6d"><path d="M286.79-81Q257-81 236-102.21t-21-51Q215-183 236.21-204t51-21Q317-225 338-203.79t21 51Q359-123 337.79-102t-51 21Zm400 0Q657-81 636-102.21t-21-51Q615-183 636.21-204t51-21Q717-225 738-203.79t21 51Q759-123 737.79-102t-51 21ZM235-741l110 228h288l125-228H235Zm-30-60h589.07q22.97 0 34.95 21 11.98 21-.02 42L694-495q-11 19-28.56 30.5T627-453H324l-56 104h491v60H277q-42 0-60.5-28t.5-63l64-118-152-322H51v-60h117l37 79Zm140 288h288-288Z"/></svg></span>
+              <div class="basket__wrapp">
+                <div class="basket__subs">товары:<sub class="basket__sub">0</sub></div>
+                <div class="basket__price">Об цена:<sub class="basket__prices">0</sub></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="goods">
+        <div class="container">
+          <div class="goods__wrapper">
+
+        </div>
+      </section>
+      <div class="overlay">
+        <div class="overlay__popup">
+          <h3 class="overlay__title">Корзина</h3>
+          <span class="overlay__x"><svg xmlns="http://www.w3.org/2000/svg" height="30" viewBox="0 -960 960 960" width="30"><path d="m256-200-40-40 224-224-224-224 40-40 224 224 224-224 40 40-224 224 224 224-40 40-224-224-224 224Z"/></svg></span>
+          <div class="overlay__header">
+            </div>
+            <div class="overlay__futter">
+              <div class="overlay__sup">
+                <h5 class="overlay__text">Итого:</h5>
+                <sup class="overlay__summa"><span class="overlay__summ">0</span> $ </sup>
+              </div>
+            </div>
+          </div>
+      </div>
+    </main>
+
+    <script src="./src/js/script.js"></script>
+    <script src="./src/js/main.js"></script>
+  </body>
+</html>
