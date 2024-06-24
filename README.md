@@ -28,4 +28,4 @@
 
 ## Ссылки проекта:
 
-Ссылка на проект для просмотра - http://rashidmamy.temp.swtest.ru/
+Ссылка на проект для просмотра - http://rashidmamy.temp.swtest.ru
